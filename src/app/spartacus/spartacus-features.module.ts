@@ -13,7 +13,8 @@ import { CartSavedCartFeatureModule } from './features/cart/cart-saved-cart-feat
 import { CartQuickOrderFeatureModule } from './features/cart/cart-quick-order-feature.module';
 import { CartImportExportFeatureModule } from './features/cart/cart-import-export-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
-import { CustomMiniCartModule } from './features/mini-cart/custom-mini-cart.module';
+import { CustomMiniCartModule } from './features/custom/mini-cart/custom-mini-cart.module';
+
 
 @NgModule({
   declarations: [],
@@ -96,7 +97,8 @@ import { CustomMiniCartModule } from './features/mini-cart/custom-mini-cart.modu
 
     //custom
 
-    CustomMiniCartModule
+    CustomMiniCartModule,
+   
   ]
 })
 export class SpartacusFeaturesModule { }
